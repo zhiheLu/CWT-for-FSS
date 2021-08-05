@@ -3,9 +3,9 @@ DATA:
   test_name: default
   train_split: 0
   test_split: default
-  data_root: /home/zhihelu/Research/FS_Seg/Datasets/COCO
-  train_list: /home/zhihelu/Research/FS_Seg/Datasets/COCO/train_list.txt
-  val_list: /home/zhihelu/Research/FS_Seg/Datasets/COCO/val_list.txt
+  data_root: COCO/
+  train_list: COCO/train_list.txt
+  val_list: COCO/val_list.txt
   num_classes_tr: 2 # Counting background for training
   num_classes_val: 20
   use_split_coco: True

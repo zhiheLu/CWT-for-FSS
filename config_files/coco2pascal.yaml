@@ -6,7 +6,7 @@ DATA:
   test_name: pascal
   test_split: -1
   train_list: lists/pascal/train.txt
-  data_root: data/pascal/
+  data_root: pascal/
   val_list: lists/pascal/val.txt
   num_classes_tr: 2
   num_classes_val: 20

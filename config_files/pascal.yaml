@@ -4,7 +4,7 @@ DATA:
   train_split: 0
   test_split: default
   train_list: lists/pascal/train.txt
-  data_root: data/pascal/
+  data_root: pascal/
   val_list: lists/pascal/val.txt
   num_classes_tr: 2  # Counting background for training
   num_classes_val: 5

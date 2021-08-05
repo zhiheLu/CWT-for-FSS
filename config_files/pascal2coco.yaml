@@ -5,9 +5,9 @@ DATA:
   train_split: 0
   test_name: coco
   test_split: -1
-  train_list: /home/zhihelu/Research/FS_Seg/Datasets/COCO/train_list.txt
-  data_root: /home/zhihelu/Research/FS_Seg/Datasets/COCO
-  val_list: /home/zhihelu/Research/FS_Seg/Datasets/COCO/val_list.txt
+  train_list: COCO/train_list.txt
+  data_root: COCO/
+  val_list: COCO/val_list.txt
   num_classes_tr: 2
   num_classes_val: 5
   use_split_coco: True
