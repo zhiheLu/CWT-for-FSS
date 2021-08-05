@@ -6,7 +6,7 @@ We proposed a novel model training paradigm for few-shot semantic segmentation. 
 classifier part to make new-class adaptation more tractable. Also, a novel meta-learning algorithm that leverages a Classifier Weight Transformer (CWT) for adapting dynamically the classifier weights to every query sample is introduced to eliminate the impact of intra-class discripency. 
 
 ## Architecture
-<a href="url"><img src="https://github.com/zhiheLu/CWT-for-FSS/blob/main/CAT.jpg" align="center" height="350" width="900" ></a>
+<a href="url"><img src="https://github.com/zhiheLu/CWT-for-FSS/blob/main/doc/framework.jpg" align="center" height="350" width="900" ></a>
 
 ## Environment
 Other configurations can also work, but the results may be slightly different.
