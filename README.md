@@ -8,4 +8,9 @@ classifier part to make new-class adaptation more tractable. Also, a novel meta-
 ## Architecture
 <a href="url"><img src="https://github.com/zhiheLu/CWT-for-FSS/blob/main/CAT.jpg" align="center" height="350" width="900" ></a>
 
-Code will be released soon.
+## Environment
+Other configurations can also work, but the results may be slightly different.
+- torch==1.6.0
+- numpy==1.19.1
+- cv2==4.4.0
+- pyyaml==5.3.1
