@@ -35,7 +35,7 @@ sh scripts/test.sh {data} {shot} {[gpu_ids]} {layers} {split}
 ```
 
 ## Contact
-Please write down issues or contact me via zhihe.lu@surrey.ac.uk if you have any questions.
+Please write down issues or contact me via zhihe.lu at surrey.ac.uk if you have any questions.
 
 ## Acknowledgments
 Thanks to the code contributors. Some parts of code are borrowed from https://github.com/Jia-Research-Lab/PFENet and https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation.
