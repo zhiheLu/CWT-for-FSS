@@ -41,13 +41,11 @@ Please write down issues or contact me via zhihe.lu [at] surrey.ac.uk if you hav
 If you feel helpful of this work, please cite it. Will update this when it is officially published on ICCV.
 
 ```
-@misc{lu2021simpler,
-      title={Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer}, 
-      author={Zhihe lu and Sen He and Xiatian Zhu and Li Zhang and Yi-Zhe Song and Tao Xiang},
-      year={2021},
-      eprint={2108.03032},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{lu2021simpler,
+  title={Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer},
+  author={Lu, Zhihe and He, Sen and Zhu, Xiatian and Zhang, Li and Song, Yi-Zhe and Xiang, Tao},
+  booktitle={ICCV},
+  year={2021}
 }
 ```
 
