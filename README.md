@@ -38,7 +38,7 @@ sh scripts/test.sh {data} {shot} {[gpu_ids]} {layers} {split}
 Please write down issues or contact me via zhihe.lu [at] surrey.ac.uk if you have any questions.
 
 ## Citation
-If you feel helpful of this work, please cite it. Will update this when it is officially published on ICCV.
+If you feel helpful of this work, please cite it.
 
 ```
 @inproceedings{lu2021simpler,
