@@ -23,7 +23,7 @@ def setup(
     Used for distributed learning
     """
     os.environ['MASTER_ADDR'] = 'localhost'
-    os.environ['MASTER_PORT'] = str(-1)
+    os.environ['MASTER_PORT'] = str(args.port)
 
     # initialize the process group
     dist.init_process_group("nccl", rank=rank, world_size=world_size)

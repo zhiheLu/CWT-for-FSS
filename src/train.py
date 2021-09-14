@@ -14,7 +14,7 @@ from .model.transformer import MultiHeadAttentionOne
 from .optimizer import get_optimizer, get_scheduler
 from .dataset.dataset import get_val_loader, get_train_loader
 from .util import intersectionAndUnionGPU, get_model_dir, AverageMeter, get_model_dir_trans
-from .util import setup, cleanup, to_one_hot, batch_intersectionAndUnionGPU
+from .util import setup, cleanup, to_one_hot, batch_intersectionAndUnionGPU, find_free_port
 from tqdm import tqdm
 from .test import validate_transformer
 from typing import Dict
@@ -282,7 +282,7 @@ def do_epoch(
         q_target_pix = np.where(q_label_arr == 1)
 
         criterion = nn.CrossEntropyLoss(
-            weight=torch.tensor([1.0, len(q_back_pix[0]) / len(q_target_pix[0])]).cuda(),
+            weight=torch.tensor([1.0, len(q_back_pix[0]) / (len(q_target_pix[0]) + 1e-12)]).cuda(),
             ignore_index=255
         )
 
@@ -356,4 +356,5 @@ if __name__ == "__main__":
     world_size = len(args.gpus)
     distributed = world_size > 1
     args.distributed = distributed
+    args.port = find_free_port()
     mp.spawn(main_worker, args=(world_size, args), nprocs=world_size, join=True)
