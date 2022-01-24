@@ -18,7 +18,7 @@ Other configurations can also work, but the results may be slightly different.
 We follow the same rule to download and process dataset as that in https://github.com/Jia-Research-Lab/PFENet. After processing, please change the "data_root" and "train/val_list" in config files accordingly.
 
 ## Pre-trained models in the first stage
-For convenience, we provide the pre-trained models on base classes for each split. Download it here: https://drive.google.com/file/d/1yHUNI1iTwF5U_HqCQ4kF6ti8lepcrBBY/view?usp=sharing, and change "resume_weights" to this folder.
+For convenience, we provide the pre-trained models on base classes for each split. Download it here: https://drive.google.com/file/d/1VPBquiy4DZXu8b6qsSB6XtO5_6jTpXgo/view?usp=sharing, and change "resume_weights" to this folder.
 
 ## Episodic training and inference
 - The general training script
